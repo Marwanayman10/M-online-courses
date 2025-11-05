@@ -1,5 +1,5 @@
 import React from 'react'
-import "./JoinUS.css"
+import "./joinUS.css"
 
 function JoinUs() {
   return (
