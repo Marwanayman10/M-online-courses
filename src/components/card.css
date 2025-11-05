@@ -1,0 +1,40 @@
+#home .card-container{
+    margin-top:5rem ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+#home .card-container .card{
+    padding: 25px;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+#home .card-container .card .icon{
+    padding: 12px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#home .card-container .card .icon svg{
+    font-size: 25px;
+}
+
+#home .card-container .card h2{
+    font-size: 18px;
+    color: var(--dark-blue);
+    margin-top: 15px;
+}
+
+#home .card-container .card .line{
+    width: 50px;
+    height: 2px;
+    display: block;
+    background-color: var(--red);
+    margin: 15px 0;
+}
+
+#home .card-container .card p{
+    font-size: 15px;
+}

@@ -1,0 +1,68 @@
+:root{
+    --dark-blue: #252b42;
+    --sky-blue : #23a6f0;
+    --light-sky-blue : #b2e3ff;
+    --light-orange : #e77c40;
+    --red : #e74040;
+    --light-pink: #ffdcd1;
+    --light-gray: #737373;
+    --yellow: #f3cd03;
+    --green: #2dc071;
+    --light-green: #b9eaa8;
+}
+
+#home{
+    background-color: var(--dark-blue);
+    padding: 5rem 0;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+#home .home-header{
+    text-align: center;
+    color: #eee;
+    max-width: 450px;
+    margin: auto;
+}
+
+#home .home-header span{
+    color: var(--red);
+    font-weight: 600;
+}
+
+#home .home-header h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: var(--light-pink);
+}
+
+#home .home-header p{
+    margin-bottom: 30px;
+    color: var(--light-pink);
+    line-height: 1.6;
+}
+
+#home .home-header .btn{
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid var(--red);
+    margin: 0 10px;
+}
+
+#home .home-header .btn.btn-red{
+    color: #eee;
+    background-color: var(--red);
+}
+
+#home .home-header .btn.btn-transparent{
+    background-color: transparent;
+    color: var(--red);
+}
+

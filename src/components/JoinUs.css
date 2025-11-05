@@ -1,0 +1,42 @@
+#joinUs{
+    background-color: var(--dark-blue);
+    padding: 6rem;
+}
+
+#joinUs .content{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
+#joinUs .content h2{
+    font-size: 35px;
+    margin: 15px 0;
+}
+
+#joinUs .content form{
+    margin-top:4rem ;
+    position: relative;
+}
+
+#joinUs .content form input{
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 100%;
+}
+
+#joinUs .content form button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px;
+    background-color: var(--sky-blue);
+    color: #fff;
+    border: none;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+
+}

@@ -1,0 +1,60 @@
+
+
+
+
+#header{
+    background-color: var(--dark-blue);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    height: 100px;
+}
+
+.navbar a{
+    color: #eee;
+    font-size: 14px;
+}
+
+.navbar .logo{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li a{
+    margin: 0 10px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover{
+    color: var(--red);
+}
+
+.navbar .account .btn-join{
+    background-color: var(--sky-blue);
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.navbar .account .btn-join svg{
+    fill: #eee;
+    font-size: 12px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+#header .logo span {
+    color: var(--red);
+}

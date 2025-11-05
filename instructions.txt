@@ -1,0 +1,25 @@
+project structure
+
+App
+
+_ Header
+_main
+   _Home
+      _card
+      _card
+      _card
+   _courses
+      _section Header
+      _course
+      _course
+      _course
+    _reviews
+      _section Header
+      _review
+      _review
+      _review
+    _join us
+_footer
+      
+      
+      
